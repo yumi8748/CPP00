@@ -6,7 +6,7 @@
 /*   By: yu-chen <yu-chen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/20 15:25:34 by yu-chen           #+#    #+#             */
-/*   Updated: 2024/07/23 14:54:25 by yu-chen          ###   ########.fr       */
+/*   Updated: 2024/07/24 16:52:06 by yu-chen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void PhoneBook::handle_add(PhoneBook& pb)
 	std::string cmd;
 
 	i = pb.check_pb(pb);
-	std::cout<< i << std::endl;
+	std::cout<< "Current Index: " <<i << std::endl;
 	if (i > 7)
 	{
 		while (true)
