@@ -6,7 +6,7 @@
 #    By: yu-chen <yu-chen@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/20 14:25:29 by yu-chen           #+#    #+#              #
-#    Updated: 2024/07/23 14:24:44 by yu-chen          ###   ########.fr        #
+#    Updated: 2024/07/25 14:20:12 by yu-chen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC = clang++
 
 CFLAGS = -Wall -Wextra -Werror
 
-SRCS = megaphone.cpp
+SRCS = Megaphone.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
